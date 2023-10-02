@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <style>
+        .card1
+        {
+            background: linear-gradient(98deg, #2167e8 0%, hwb(161 7% 28%) 100%);
+        }
         .card {
             background: transparent;
         }
@@ -178,85 +182,49 @@
         </nav>
         <!-- side-mobile-menu end -->
     </aside>
-
-    <!-- header search end -->
-    <div class="body-overlay"></div>
-    <!-- slide bar end -->
-
     <main>
 
-
         <!-- about start -->
-        <section class="container blc-about mt-180 ">
-            <form>
-                <div class="form-row">
-                    <div class="col-6  mb-3">
-                        <label for="validationDefault01">First name</label>
-                        <input type="text" class="form-control" id="validationDefault01"
-                               placeholder="First name" value="Mark" required>
-                    </div>
-                    <div class="col-6 mb-3">
-                        <label for="validationDefault02">Last name</label>
-                        <input type="text" class="form-control" id="validationDefault02"
-                               placeholder="Last name" value="Otto" required>
-                    </div>
-                    <div class="col-6 mb-3">
-                        <label for="validationDefaultUsername">Username</label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+        <section class="container  mt-150 text-white ">
+            <div class="row mb-5 justify-content-center">
+                <div class="col-lg-8 ">
+                    <form>
+                        <div class="card1 p-4"  style="border-radius: 6px;">
+                            <div class="  mb-3">
+                                <label for="validationDefault01">First name</label>
+                                <input type="text" class="form-control" id="validationDefault01"
+                                       required>
                             </div>
-                            <input type="text" class="form-control" id="validationDefaultUsername"
-                                   placeholder="Username" aria-describedby="inputGroupPrepend2"
-                                   required>
+                            <div class=" mb-3">
+                                <label for="validationDefault02">Last name</label>
+                                <input type="text" class="form-control" id="validationDefault02"
+                                       required>
+                            </div>
+                            <div class=" mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+                            </div>
+                            <div class=" mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class=" mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="">
+                            </div>
+                            <div class="blockchain-header__account  ">
+                                <a class="blc-btn text-center mt-2" href="login.html"><span><i
+                                        class="fas fa-user"></i> <small> Submit</small> </span></a>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
-                <div class="form-row">
-                    <div class="col-6 mb-3">
-                        <label for="validationDefault03">City</label>
-                        <input type="text" class="form-control" id="validationDefault03"
-                               placeholder="City" required>
-                    </div>
-                    <div class="col-6 mb-3">
-                        <label for="validationDefault04">State</label>
-                        <input type="text" class="form-control" id="validationDefault04"
-                               placeholder="State" required>
-                    </div>
-                    <div class="col-6 mb-3">
-                        <label for="validationDefault05">Zip</label>
-                        <input type="text" class="form-control" id="validationDefault05"
-                               placeholder="Zip" required>
-                    </div>
-                    <div class="col-6 mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1"
-                               aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
-                            else.
-                        </div>
-                    </div>
-                    <div class="col-6 mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2"
-                               required>
-                        <label class="form-check-label" for="invalidCheck2">
-                            Agree to terms and conditions
-                        </label>
-                    </div>
-                </div>
-                <a class="blc-btn text-center  mt-3 mb-3" href="login.html"><span><i
-                        class="fas fa-user"></i> <small> Submit</small> </span></a>
-            </form>
-
+            </div>
         </section>
+
     </main>
+
 
     <!-- footer start -->
     <footer class="site-footer footer__blockchain pos-rel pt-95 bg_img" data-background="assets/img/bg/footer_bg2.jpg">
