@@ -24,7 +24,7 @@
 
     <style>
         .card {
-            background: transparent;
+            background: linear-gradient(98deg, #2167e8 0%, hwb(161 7% 28%) 100%);
         }
 
         .mux-card-img-1 {
@@ -113,7 +113,8 @@
                 <div class="header__main ul_li_between">
                     <div class="header__left ul_li">
                         <div class="header__logo">
-                            <a href="index.html"><img src="assets/img/logo/1.svg" style="    height: 60px;" class="img-fluid" alt=""></a>
+                            <a href="index.html"><img src="assets/img/logo/1.svg" style="    height: 60px;"
+                                                      class="img-fluid" alt=""></a>
                         </div>
                     </div>
                     <div class="main-menu__wrap ul_li navbar navbar-expand-lg">
@@ -139,7 +140,8 @@
                         </div>
 
                         <div class="blockchain-header__account">
-                            <a class="blc-btn text-center  mt-3 mb-3" href="#!"><span><i class="fas fa-user"></i> <small> Sign In/Sign Up</small> </span></a>
+                            <a class="blc-btn text-center  mt-3 mb-3" href="#!"><span><i
+                                    class="fas fa-user"></i> <small> Sign In/Sign Up</small> </span></a>
                         </div>
                     </div>
                 </div>
@@ -157,7 +159,7 @@
         <!-- side-mobile-menu start -->
         <nav class="side-mobile-menu">
             <a class="header__logo mb-30" href="#!">
-                <img src="assets/img/logo/1.svg"     style="    height: 40px;" class="img-fluid" alt="">
+                <img src="assets/img/logo/1.svg" style="    height: 40px;" class="img-fluid" alt="">
             </a>
             <div class="header-mobile-search">
                 <form role="search" method="get" action="#">
@@ -183,29 +185,39 @@
     <main>
 
 
-
         <!-- about start -->
         <section class="container blc-about mt-150">
             <div class="container">
-                <form >
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="card p-3">
+                            <form>
+                                <div class="mb-3 text-white">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text text-white">We'll never share your email with
+                                        anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3 text-white">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check text-white">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <div class="blockchain-header__account">
+                                    <a class="blc-btn text-center  mt-3 mb-3" href="login.html"><span><i
+                                            class="fas fa-user"></i> <small> Submit</small> </span></a>
+                                    <a class="blc-btn text-center  mt-3 mb-3" href="#"><span><i class="fas fa-user"></i> <small> Register</small> </span></a>
+                                </div>
+                            </form>
+
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <div class="blockchain-header__account">
-                        <a class="blc-btn text-center  mt-3 mb-3" href="login.html"><span><i class="fas fa-user"></i> <small> Submit</small> </span></a>
-                        <a class="blc-btn text-center  mt-3 mb-3" href="#"><span><i class="fas fa-user"></i> <small> Register</small> </span></a>
-                    </div>
-                </form>
+                </div>
             </div>
         </section>
     </main>
@@ -239,18 +251,22 @@
                     <div class="footer__widget">
                         <h3>Contact</h3>
                         <ul class="footer__widget-links ">
-                            <li><a href="#!">  <i class="flaticon-placeholder"></i>  <p>Your Address <br> your city</p></a></li>
-                            <li><a href="#!"> telephone <br>   <p>+0000000000000<br>
-                                +0000000000000</p></a></li>
-                            <li><a href="#!">Email <br> <p>info@example.com<br>
-                                info@example.com</p></a></li>
+                            <li><a href="#!"> <i class="flaticon-placeholder"></i>
+                                <p>Your Address <br> your city</p></a></li>
+                            <li><a href="#!"> telephone <br>
+                                <p>+0000000000000<br>
+                                    +0000000000000</p></a></li>
+                            <li><a href="#!">Email <br>
+                                <p>info@example.com<br>
+                                    info@example.com</p></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="footer__copyright-blc ul_li_between">
                 <div class="footer__copyright-text mt-15">
-                    Copyright © 2023 <a href="https://ngt-tech.io/"><i class="NGT-HK"></i>NGT-HK</a> All rights reserved.
+                    Copyright © 2023 <a href="https://ngt-tech.io/"><i class="NGT-HK"></i>NGT-HK</a> All rights
+                    reserved.
                 </div>
                 <ul class="footer__social ul_li mt-15">
                     <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
