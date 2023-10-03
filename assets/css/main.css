@@ -287,7 +287,11 @@ p, li, span {
 @media (max-width: 767px) {
   .tx-col-md-6 {
     width: 100%; } }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 .tx-close {
   background: rgba(0, 0, 0, 0.04);
   border: 9px solid transparent;
@@ -548,7 +552,7 @@ p, li, span {
   margin-top: 25px; }
 
 .mt-30 {
-  margin-top: 30px; }
+  margin-top: 40px; }
 
 .mt-35 {
   margin-top: 35px; }
@@ -1071,7 +1075,7 @@ p, li, span {
   padding-top: 90px; }
 
 .pt-95 {
-  padding-top: 95px; }
+  padding-top: 1px; }
 
 .pt-100 {
   padding-top: 100px; }
@@ -2545,6 +2549,17 @@ h6 {
     background-color: #0B0E13; }
   .blockchain-header .header__main-wrap {
     padding: 0 90px; }
+@media only screen and (min-width: 320px) and (max-width: 852px)
+{
+.quick
+{
+  display: none;
+}
+  .cont
+  {
+
+  }
+}
     @media only screen and (min-width: 1200px) and (max-width: 1500px) {
       .blockchain-header .header__main-wrap {
         padding: 0 10px; } }
