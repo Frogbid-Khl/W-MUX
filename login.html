@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <style>
-        .card {
-            background: linear-gradient(98deg, #2167e8 0%, hwb(161 7% 28%) 100%);
-        }
+     /*   .card {
+          !*  background: linear-gradient(98deg, #2167e8 0%, hwb(161 7% 28%) 100%);*!
+        }*/
 
         .mux-card-img-1 {
             background: #000 url("assets/img/card/1.png") no-repeat;
@@ -70,7 +70,7 @@
         }
 
         .card .card-body {
-            background: linear-gradient(to right, #061220, #13535d);
+         /*   background: linear-gradient(to right, #061220, #13535d);*/
             border: 2px solid #50535d;
             border-radius: 0 0 15px 15px;
         }
@@ -104,7 +104,7 @@
 </div>
 
 
-<div class="body_wrap">
+<div class="body_wrap" >
 
     <!-- header start -->
     <header class="site-header header--transparent blockchain-header">
@@ -117,7 +117,7 @@
                                                       class="img-fluid" alt=""></a>
                         </div>
                     </div>
-                    <div class="main-menu__wrap ul_li navbar navbar-expand-lg">
+                    <div class="main-menu__wrap ul_li navbar navbar-expand-lg" style="margin-right: 90px;">
                         <nav class="main-menu collapse navbar-collapse">
                             <ul>
                                 <li><a class="scrollspy-btn " href="index.html">Home</a></li>
@@ -140,8 +140,8 @@
                         </div>
 
                         <div class="blockchain-header__account">
-                            <a class="blc-btn text-center  mt-3 mb-3" href="#!"><span><i
-                                    class="fas fa-user"></i> <small> Sign In/Sign Up</small> </span></a>
+                            <a class="blc-btn text-center  mt-3 mb-3" href="register.html"><span><i
+                                    class="fas fa-user"></i> <small> Sign Up</small> </span></a>
                         </div>
                     </div>
                 </div>
@@ -189,33 +189,29 @@
         <section class="container blc-about mt-150">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="card p-4" style="border-radius: 6px;">
+                    <div class="col-lg-4 mx-auto">
+                       <!-- <div class="card p-4" style="border-radius: 6px;">-->
                             <form >
-                                <div class="mb-3 text-white">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                <div>
+                                    <h1>Log In</h1>
+                                </div>
+                                <div class="mb-2 mt-3 ">
+                                    <label for="exampleInputEmail1" class="form-label">Email or Username</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email address or Username"
                                            aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text text-white">We'll never share your email with
-                                        anyone else.
-                                    </div>
+
                                 </div>
-                                <div class="mb-3 text-white">
+                                <div class="mb-2 ">
                                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <input type="password" class="form-control"  placeholder="Password"  id="exampleInputPassword1">
                                 </div>
-                                <div class=" form-check text-white">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                </div>
-                                <div class="blockchain-header__account ">
-                                    <a class="blc-btn text-center mt-2" href="login.html"><span><i
-                                            class="fas fa-user"></i> <small> Submit</small> </span></a>
-                               <a class="blc-btn text-center  mt-3 mb-3" href="register.html"><span><i class="fas fa-user"></i> <small> Register</small> </span></a>
+                                <div class="">
+                                    <a  type="button" class="btn btn-success fs-5 mt-2" style="width: 100%" href="login.html"><span><i
+                                            ></i> <small> Log In</small> </span></a>
                                 </div>
                             </form>
 
-                        </div>
+                       <!-- </div>-->
                     </div>
                 </div>
             </div>
@@ -223,11 +219,14 @@
     </main>
 
     <!-- footer start -->
-    <footer class="site-footer footer__blockchain pos-rel pt-95 bg_img" data-background="assets/img/bg/footer_bg2.jpg">
-        <div class="container">
+    <footer class="site-footer footer__blockchain pos-rel pt-95 bg_img" style=" padding-top: 360px" data-background="assets/img/bg/footer_bg2.jpg">
+        <div class="container justify-content-lg-center">
 
-            <div class="row mt-none-30 pb-70">
-                <div class="col-lg-4 col-md-6 col-sm-6 mt-30">
+          <!--  <div class="row  pb-70">
+                <div class="col-lg-3 col-md-6 col-sm-6 mt-20">
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mt-20">
                     <div class="footer__widget">
                         <div class="footer__widget-community text-center">
                             <h3>Join Our Blockchain <br> Community</h3>
@@ -235,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 mt-30">
+                <div class="col-lg-3 col-md-6 col-sm-6 mt-20">
                     <div class="footer__widget">
                         <h3>Quick Links</h3>
                         <ul class="footer__widget-links list-unstyled">
@@ -247,7 +246,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 mt-30">
+                <div class="col-lg-3 col-md-6 col-sm-6 mt-20">
                     <div class="footer__widget">
                         <h3>Contact</h3>
                         <ul class="footer__widget-links ">
@@ -262,10 +261,10 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="footer__copyright-blc ul_li_between">
+            </div>-->
+            <div class="footer__copyright-blc ul_li_between " >
                 <div class="footer__copyright-text mt-15">
-                    Copyright © 2023 <a href="https://ngt-tech.io/"><i class="NGT-HK"></i>NGT-HK</a> All rights
+                    Copyright © 2023 <a href="https://ngt-tech.io/" class="NGT-HK "><i class="NGT-HK"></i>NGT-HK</a> All rights
                     reserved.
                 </div>
                 <ul class="footer__social ul_li mt-15">

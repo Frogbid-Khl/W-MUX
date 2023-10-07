@@ -62,7 +62,7 @@ body {
   margin: 0;
   font-weight: 400;
   position: relative;
-  font-family: var(--font-body);
+  font-family: Inter;
   font-size: 16px;
   line-height: 26px;
   color: var(--color-default);
@@ -2998,11 +2998,16 @@ h6 {
     max-width: 1312px; } }
 .container.mxw_1640 {
   max-width: 1640px; }
+.NGT-HK
+{
 
+  color: #00D89E;
+
+}
 .home-blockchain {
   background-color: #03050E; }
   .home-blockchain h1, .home-blockchain h2, .home-blockchain h3, .home-blockchain h4, .home-blockchain h5, .home-blockchain h6 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: Poppins;
     line-height: 1.1;
     font-weight: 400; }
 
