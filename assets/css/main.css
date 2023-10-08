@@ -78,7 +78,10 @@ ul {
 
 button {
   cursor: pointer; }
-
+.trade{
+  max-width: 40%;
+  height: auto
+}
 *:focus {
   outline: none; }
 
