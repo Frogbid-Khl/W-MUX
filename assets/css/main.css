@@ -688,7 +688,7 @@ p, li, span {
   margin-bottom: 45px; }
 
 .mb-50 {
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 .mb-55 {
   margin-bottom: 55px; }
@@ -3370,7 +3370,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     .hero__ico {
       padding-top: 180px; } }
 .hero__blockchain {
-  min-height: 1060px;
+  min-height: 900px;
   padding-top: 260px; }
   @media (max-width: 1199px) {
     .hero__blockchain {
@@ -6998,7 +6998,7 @@ blockquote {
       font-size: 32px;
       line-height: 45px; } }
   .sec-title__title.text-50 {
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: -2px; }
     @media (max-width: 1199px) {
       .sec-title__title.text-50 {
